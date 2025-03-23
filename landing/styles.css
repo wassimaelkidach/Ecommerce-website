@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background-color: #f4f4f4;
+}
+
+/* Barre de navigation */
+header {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+}
+
+header h1 {
+    font-family:'harrington' ,fantasy ;
+}
+
+a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: white;
+}
+
+.landing-page-section {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-image: url(background.jpg);
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-attachment: scroll; 
+    color: white; 
+    overflow-y: auto; 
+}
+
+/* Classe hero */
+.hero {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 10px;
+    margin: 20px;
+    text-align: left;
+    margin-left: 70px;
+    max-width: 600px;
+}
+
+.hero h1 {
+    font-size: 4rem;
+    margin-bottom: 20px;
+    font-weight: 800;
+    line-height: 4rem;
+}
+
+.stats {
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+}
+
+.stat {
+    text-align: left;
+    font-size: 3rem;
+}
+
+.stat1 {
+    border-right: 3px solid rgb(255, 255, 255);
+    padding-right: 3rem;
+}
+
+.stat span {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.stat p {
+    font-size: 1rem;
+    margin: 5px 0 0;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.input-search-container {
+    position: relative;
+    width: 100%;
+    max-width: 500px;
+    margin-top: 20px;
+}
+
+.search-wrapper {
+    position: relative;
+    width: 100%;
+    max-width: 500px;
+}
+
+.input-search-container .search {
+    font-size: 16px;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    border-radius: 12px;
+    border: none;
+    padding: 1.2rem 6rem 1.2rem 1.2rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.input-search-container .button-search {
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #A4947E;
+    border: none;
+    border-radius: 12px;
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+}
